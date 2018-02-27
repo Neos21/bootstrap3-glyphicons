@@ -1,6 +1,20 @@
-//
+/*! Bootstrap3 Glyphicons : Neo (@Neos21) : http://neo.s21.xrea.com/ */
+
+/*!
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+//** Load fonts from this directory.
+$icon-font-path: "../fonts/" !default;
+//** File name for all font files.
+$icon-font-name: "glyphicons-halflings-regular" !default;
+//** Element ID within SVG icon file.
+$icon-font-svg-id: "glyphicons_halflingsregular" !default;
+
 // Glyphicons for Bootstrap
-//
+// 
 // Since icons are fonts, they can be placed anywhere text is placed and are
 // thus automatically sized to match the surrounding child. To use, create an
 // inline element with the appropriate classes, like so:
@@ -11,12 +25,12 @@
   // Import the fonts
   @font-face {
     font-family: 'Glyphicons Halflings';
-    src: url(if($bootstrap-sass-asset-helper, twbs-font-path('#{$icon-font-path}#{$icon-font-name}.eot'), '#{$icon-font-path}#{$icon-font-name}.eot'));
-    src: url(if($bootstrap-sass-asset-helper, twbs-font-path('#{$icon-font-path}#{$icon-font-name}.eot?#iefix'), '#{$icon-font-path}#{$icon-font-name}.eot?#iefix')) format('embedded-opentype'),
-         url(if($bootstrap-sass-asset-helper, twbs-font-path('#{$icon-font-path}#{$icon-font-name}.woff2'), '#{$icon-font-path}#{$icon-font-name}.woff2')) format('woff2'),
-         url(if($bootstrap-sass-asset-helper, twbs-font-path('#{$icon-font-path}#{$icon-font-name}.woff'), '#{$icon-font-path}#{$icon-font-name}.woff')) format('woff'),
-         url(if($bootstrap-sass-asset-helper, twbs-font-path('#{$icon-font-path}#{$icon-font-name}.ttf'), '#{$icon-font-path}#{$icon-font-name}.ttf')) format('truetype'),
-         url(if($bootstrap-sass-asset-helper, twbs-font-path('#{$icon-font-path}#{$icon-font-name}.svg##{$icon-font-svg-id}'), '#{$icon-font-path}#{$icon-font-name}.svg##{$icon-font-svg-id}')) format('svg');
+    src: url('#{$icon-font-path}#{$icon-font-name}.eot');
+    src: url('#{$icon-font-path}#{$icon-font-name}.eot?#iefix') format('embedded-opentype'),
+         url('#{$icon-font-path}#{$icon-font-name}.woff2') format('woff2'),
+         url('#{$icon-font-path}#{$icon-font-name}.woff') format('woff'),
+         url('#{$icon-font-path}#{$icon-font-name}.ttf') format('truetype'),
+         url('#{$icon-font-path}#{$icon-font-name}.svg##{$icon-font-svg-id}') format('svg');
   }
 }
 
