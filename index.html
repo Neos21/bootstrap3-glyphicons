@@ -15,8 +15,9 @@ footer {
   margin: 1em 2em 2em;
 }
 
-h1 {
+header {
   border-bottom: 1px solid #d2d4d6;
+  text-align: center;
 }
 
 /* ul */
@@ -28,25 +29,31 @@ h1 {
   justify-content: space-between;
 }
 
-.list li {
+.list li:not(.empty) {
   width: 9em;
   height: 8em;
   margin: .15em;
   padding: .8em;
   text-align: center;
   line-height: 1.4;
-  background: #eee;
+  background: #f2f4f6;
   overflow: hidden;
 }
 
 .glyphicon {
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: .2em;
   font-size: 1.9em;
 }
 
 .name {
   font-size: .85em;
+}
+
+.empty {
+  width: 9em;
+  height: 0;
+  margin: 0 .15em;
 }
 
 footer {
@@ -64,10 +71,10 @@ small {
   <body>
     <header>
       <h1>Bootstrap3 Glyphicons</h1>
-      <p><a href="https://www.npmjs.com/package/@neos21/bootstrap3-glyphicons"><img src="https://img.shields.io/npm/v/@neos21/bootstrap3-glyphicons.svg" alt="NPM Version" title="NPM Version"></a></p>
-      <p>This package includes only Glyphicons components of Bootstrap v3.3.7.</p>
     </header>
     <main>
+      <p><a href="https://www.npmjs.com/package/@neos21/bootstrap3-glyphicons"><img src="https://img.shields.io/npm/v/@neos21/bootstrap3-glyphicons.svg" alt="NPM Version" title="NPM Version"></a></p>
+      <p>This package includes only Glyphicons components of Bootstrap v3.3.7.</p>
       <ul class="list">
         <li><span class="glyphicon glyphicon-asterisk"></span><span class="name">glyphicon-asterisk</span></li>
         <li><span class="glyphicon glyphicon-plus"></span><span class="name">glyphicon-plus</span></li>
@@ -332,11 +339,21 @@ small {
         <li><span class="glyphicon glyphicon-menu-right"></span><span class="name">glyphicon-menu-right</span></li>
         <li><span class="glyphicon glyphicon-menu-down"></span><span class="name">glyphicon-menu-down</span></li>
         <li><span class="glyphicon glyphicon-menu-up"></span><span class="name">glyphicon-menu-up</span></li>
+        <li class="empty"></li>
+        <li class="empty"></li>
+        <li class="empty"></li>
+        <li class="empty"></li>
+        <li class="empty"></li>
+        <li class="empty"></li>
+        <li class="empty"></li>
+        <li class="empty"></li>
+        <li class="empty"></li>
+        <li class="empty"></li>
       </ul>
-      <p>Notice: <code>.glyphicon-door</code> and <code>.glyphicon-key</code> are omitted because of Unicode <abbr title="Basic Multilingual Plane">BMP</abbr> (<a href="https://github.com/twbs/bootstrap/issues/10106">More Info</a>).</p>
-      <pre>.glyphicon-door:before { content: &quot;\1f6aa&quot;; }<br>.glyphicon-key:before { content: &quot;\1f511&quot;; }</pre>
+      <p>Notice : <code>.glyphicon-door</code> and <code>.glyphicon-key</code> are omitted because of Unicode <abbr title="Basic Multilingual Plane">BMP</abbr> (<a href="https://github.com/twbs/bootstrap/issues/10106">More Info</a>).</p>
+      <pre>.glyphicon-door::before { content: &quot;\1f6aa&quot;; }<br>.glyphicon-key::before  { content: &quot;\1f511&quot;; }</pre>
       <h2>Author</h2>
-      <p><a href="http://neo.s21.xrea.com/">Neo</a> (<a href="https://twitter.com/neos21">@Neos21</a>)
+      <p><a href="http://neo.s21.xrea.com/">Neo</a> (<a href="https://twitter.com/neos21">@Neos21</a>)</p>
       <ul>
         <li><a href="https://github.com/Neos21GitHub/bootstrap3-glyphicons">GitHub - bootstrap3-glyphicons</a></li>
         <li><a href="https://neos21github.github.io/bootstrap3-glyphicons/">GitHub Pages - bootstrap3-glyphicons</a></li>
