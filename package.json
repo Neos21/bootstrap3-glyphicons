@@ -1,9 +1,18 @@
 {
   "name": "@neos21/bootstrap3-glyphicons",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bootstrap3 Glyphicons",
   "main": "assets/stylesheets/_bootstrap3-glyphicons.scss",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neos21/bootstrap3-glyphicons.git"
+  },
+  "author": "Neo <neos21@gmail.com> (http://neo.s21.xrea.com/)",
+  "bugs": {
+    "url": "https://github.com/Neos21/bootstrap3-glyphicons/issues"
+  },
+  "homepage": "https://github.com/Neos21/bootstrap3-glyphicons#readme",
   "scripts": {
     "build": "npm run build:clean && npm run build:fonts && npm run build:css",
     "build:clean": "npm run build:clean:rm && npm run build:clean:mkdir",
