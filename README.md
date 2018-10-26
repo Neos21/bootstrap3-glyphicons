@@ -5,6 +5,28 @@
 This package includes only Glyphicons components of Bootstrap v3.3.7.
 
 
+## Installation
+
+```sh
+$ npm install --save @neos21/bootstrap3-glyphicons
+```
+
+- SCSS
+
+```scss
+// Fix Icon Font Path
+$icon-font-path: '~@neos21/bootstrap3-glyphicons/assets/fonts/';
+// Import This
+@import '~@neos21/bootstrap3-glyphicons';
+```
+
+- HTML
+
+```html
+<span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span>
+```
+
+
 ## Demo
 
 __[Demo (GitHub Pages)](https://neos21.github.io/bootstrap3-glyphicons/)__

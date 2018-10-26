@@ -6,11 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap3 Glyphicons</title>
     <link rel="stylesheet" href="./dist/css/bootstrap3-glyphicons.css">
-    <link rel="stylesheet" href="https://unpkg.com/@neos21/neos-normalize@1.0.3/neos-normalize.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/@neos21/neos-normalize@1.0.4/neos-normalize.min.css">
     <link rel="icon" href="/favicon.ico">
     <link rel="icon" href="/favicon-192x192.png" sizes="192x192" type="image/png">
     <link rel="apple-touch-icon" href="/apple-touch-icon-152x152.png" sizes="152x152">
     <style>
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
 header,
 main,
@@ -78,6 +84,20 @@ small {
     <main>
       <p><a href="https://www.npmjs.com/package/@neos21/bootstrap3-glyphicons"><img src="https://img.shields.io/npm/v/@neos21/bootstrap3-glyphicons.svg" alt="NPM Version" title="NPM Version"></a></p>
       <p>This package includes only Glyphicons components of Bootstrap v3.3.7.</p>
+      <h2>Installation</h2>
+      <pre><code>$ npm install --save @neos21/bootstrap3-glyphicons</code></pre>
+      <ul>
+        <li>SCSS</li>
+      </ul>
+      <pre><code>// Fix Icon Font Path
+$icon-font-path: '~@neos21/bootstrap3-glyphicons/assets/fonts/';
+// Import This
+@import '~@neos21/bootstrap3-glyphicons';</code></pre>
+      <ul>
+        <li>HTML</li>
+      </ul>
+      <pre><code>&lt;span class=&quot;glyphicon glyphicon-asterisk&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;</code></pre>
+      <h2>Glyphicons List</h2>
       <ul class="list">
         <li><span class="glyphicon glyphicon-asterisk"></span><span class="name">glyphicon-asterisk</span></li>
         <li><span class="glyphicon glyphicon-plus"></span><span class="name">glyphicon-plus</span></li>
