@@ -1,20 +1,10 @@
 {
   "name": "@neos21/bootstrap3-glyphicons",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Bootstrap3 Glyphicons",
   "main": "assets/stylesheets/_bootstrap3-glyphicons.scss",
   "sass": "assets/stylesheets/_bootstrap3-glyphicons.scss",
   "style": "dist/css/bootstrap3-glyphicons.min.css",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Neos21/bootstrap3-glyphicons.git"
-  },
-  "author": "Neo <neos21@gmail.com> (http://neo.s21.xrea.com/)",
-  "bugs": {
-    "url": "https://github.com/Neos21/bootstrap3-glyphicons/issues"
-  },
-  "homepage": "https://github.com/Neos21/bootstrap3-glyphicons#readme",
   "scripts": {
     "build": "npm run build:clean && npm run build:fonts && npm run build:css",
     "build:clean": "npm run build:clean:rm && npm run build:clean:mkdir",
@@ -24,6 +14,20 @@
     "build:css": "npm run build:css:normal && npm run build:css:min",
     "build:css:normal": "node-sass ./assets/stylesheets/_bootstrap3-glyphicons.scss -r --output-style expanded > ./dist/css/bootstrap3-glyphicons.css",
     "build:css:min": "node-sass ./assets/stylesheets/_bootstrap3-glyphicons.scss -r --output-style compressed > ./dist/css/bootstrap3-glyphicons.min.css"
+  },
+  "author": "Neo <neos21@gmail.com> (http://neo.s21.xrea.com/)",
+  "license": "MIT",
+  "homepage": "https://github.com/Neos21/bootstrap3-glyphicons#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neos21/bootstrap3-glyphicons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Neos21/bootstrap3-glyphicons/issues"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/Neos21"
   },
   "devDependencies": {
     "cpx": "1.5.0",
