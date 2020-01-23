@@ -308,7 +308,7 @@ __Notice__ : `.glyphicon-door` and `.glyphicon-key` are omitted because of Unico
 
 ## Author
 
-[Neo](http://neo.s21.xrea.com/) ([@Neos21](https://twitter.com/Neos21))
+[Neo](http://neo.s21.xrea.com/)
 
 - [GitHub - bootstrap3-glyphicons](https://github.com/Neos21/bootstrap3-glyphicons)
 - [GitHub Pages - bootstrap3-glyphicons](https://neos21.github.io/bootstrap3-glyphicons/)
