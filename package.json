@@ -1,6 +1,6 @@
 {
   "name": "@neos21/bootstrap3-glyphicons",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Bootstrap3 Glyphicons",
   "main": "assets/stylesheets/_bootstrap3-glyphicons.scss",
   "sass": "assets/stylesheets/_bootstrap3-glyphicons.scss",

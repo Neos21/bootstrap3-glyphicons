@@ -1,6 +1,6 @@
 # Bootstrap3 Glyphicons : @neos21/bootstrap3-glyphicons
 
-[![NPM Version](https://img.shields.io/npm/v/@neos21/bootstrap3-glyphicons.svg)](https://www.npmjs.com/package/@neos21/bootstrap3-glyphicons)
+[![NPM Version](https://img.shields.io/npm/v/@neos21/bootstrap3-glyphicons.svg)](https://www.npmjs.com/package/@neos21/bootstrap3-glyphicons) [![GPR Version](https://img.shields.io/github/package-json/v/neos21/bootstrap3-glyphicons?label=github)](https://github.com/Neos21/bootstrap3-glyphicons/packages/327420)
 
 This package includes only Glyphicons components of Bootstrap v3.3.7.
 
