@@ -306,20 +306,10 @@ __Notice__ : `.glyphicon-door` and `.glyphicon-key` are omitted because of Unico
 ```
 
 
-## Author
-
-[Neo](http://neo.s21.xrea.com/)
-
-- [GitHub - bootstrap3-glyphicons](https://github.com/Neos21/bootstrap3-glyphicons)
-- [GitHub Pages - bootstrap3-glyphicons](https://neos21.github.io/bootstrap3-glyphicons/)
-- [npm - @neos21/bootstrap3-glyphicons](https://www.npmjs.com/package/@neos21/bootstrap3-glyphicons)
-
-
 ## Links
 
-- [Neo's World](http://neo.s21.xrea.com/)
-- [Corredor](https://neos21.hatenablog.com/)
-- [Murga](https://neos21.hatenablog.jp/)
-- [El Mylar](https://neos21.hateblo.jp/)
-- [Neo's GitHub Pages](https://neos21.github.io/)
+- [Neo's World](https://neos21.net/)
 - [GitHub - Neos21](https://github.com/Neos21/)
+- [GitHub - bootstrap3-glyphicons](https://github.com/Neos21/bootstrap3-glyphicons)
+- [GitHub Pages - Bootstrap3 Glyphicons](https://neos21.github.io/bootstrap3-glyphicons/)
+- [npm - @neos21/bootstrap3-glyphicons](https://www.npmjs.com/package/@neos21/bootstrap3-glyphicons)
