@@ -1,6 +1,6 @@
 {
   "name": "@neos21/bootstrap3-glyphicons",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Bootstrap3 Glyphicons",
   "main": "assets/stylesheets/_bootstrap3-glyphicons.scss",
   "sass": "assets/stylesheets/_bootstrap3-glyphicons.scss",
@@ -15,7 +15,7 @@
     "build:css:normal": "node-sass ./assets/stylesheets/_bootstrap3-glyphicons.scss -r --output-style expanded > ./dist/css/bootstrap3-glyphicons.css",
     "build:css:min": "node-sass ./assets/stylesheets/_bootstrap3-glyphicons.scss -r --output-style compressed > ./dist/css/bootstrap3-glyphicons.min.css"
   },
-  "author": "Neo <neos21@gmail.com> (http://neo.s21.xrea.com/)",
+  "author": "Neo <neos21@gmail.com> (https://neos21.net/)",
   "license": "MIT",
   "homepage": "https://github.com/Neos21/bootstrap3-glyphicons#readme",
   "repository": {

@@ -6,27 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap3 Glyphicons : @neos21/bootstrap3-glyphicons</title>
     <link rel="stylesheet" href="./dist/css/bootstrap3-glyphicons.css">
-    <link rel="stylesheet" href="https://neos21.github.io/neos-normalize/neos-normalize.min.css">
-    <link rel="icon" href="/favicon.ico">
-    <link rel="icon" href="/favicon-192x192.png" sizes="192x192" type="image/png">
-    <link rel="apple-touch-icon" href="/apple-touch-icon-152x152.png" sizes="152x152">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@neos21/neos-normalize@2.0.1/neos-normalize.min.css">
+    <link rel="icon" href="https://neos21.github.io/favicon.ico">
     <style>
 
-*,
-::before,
-::after {
-  box-sizing: border-box;
-}
-
-header,
-main,
-footer {
-  margin: 1em 2em 2em;
+body {
+  margin: 1rem;
 }
 
 header {
-  border-bottom: 1px solid #d2d4d6;
+  border-bottom: 1px solid var(--nn-colour-grey-default);
   text-align: center;
+}
+
+h1 {
+  margin-bottom: var(--nn-space-large);
 }
 
 /* ul */
@@ -39,10 +33,10 @@ header {
 }
 
 .list li:not(.empty) {
-  width: 9em;
-  height: 8em;
-  margin: .15em;
-  padding: .8em;
+  width: 9rem;
+  height: 8rem;
+  margin: .15rem;
+  padding: .8rem;
   text-align: center;
   line-height: 1.4;
   background: #f2f4f6;
@@ -51,27 +45,28 @@ header {
 
 .glyphicon {
   display: block;
-  margin-bottom: .2em;
-  font-size: 1.9em;
+  margin-bottom: .2rem;
+  font-size: 2rem;
 }
 
 .name {
-  font-size: .85em;
+  font-size: .85rem;
 }
 
 .empty {
-  width: 9em;
+  width: 9rem;
   height: 0;
-  margin: 0 .15em;
+  margin: 0 .15rem;
 }
 
 footer {
-  border-top: 1px solid #d2d4d6;
-  padding: 1em;
+  border-top: 1px solid var(--nn-colour-grey-default);
   text-align: center;
 }
 
 small {
+  display: block;
+  margin: var(--nn-space-large) 0;
   font-size: 1rem;
 }
 
@@ -79,7 +74,7 @@ small {
   </head>
   <body>
     <header>
-      <h1>Bootstrap3 Glyphicons</h1>
+      <h1>Bootstrap3 Glyphicons : @neos21/bootstrap3-glyphicons</h1>
     </header>
     <main>
       <p>
@@ -378,25 +373,17 @@ $icon-font-path: '~@neos21/bootstrap3-glyphicons/assets/fonts/';
       </ul>
       <p>Notice : <code>.glyphicon-door</code> and <code>.glyphicon-key</code> are omitted because of Unicode <abbr title="Basic Multilingual Plane">BMP</abbr> (<a href="https://github.com/twbs/bootstrap/issues/10106">More Info</a>).</p>
       <pre>.glyphicon-door::before { content: &quot;\1f6aa&quot;; }<br>.glyphicon-key::before  { content: &quot;\1f511&quot;; }</pre>
-      <h2>Author</h2>
-      <p><a href="http://neo.s21.xrea.com/">Neo</a></p>
-      <ul>
-        <li><a href="https://github.com/Neos21/bootstrap3-glyphicons">GitHub - bootstrap3-glyphicons</a></li>
-        <li><a href="https://neos21.github.io/bootstrap3-glyphicons/">GitHub Pages - bootstrap3-glyphicons</a></li>
-        <li><a href="https://www.npmjs.com/package/@neos21/bootstrap3-glyphicons">npm - @neos21/bootstrap3-glyphicons</a></li>
-      </ul>
       <h2>Links</h2>
       <ul>
-        <li><a href="http://neo.s21.xrea.com/">Neo's World</a></li>
-        <li><a href="https://neos21.hatenablog.com/">Corredor</a></li>
-        <li><a href="https://neos21.hatenablog.jp/">Murga</a></li>
-        <li><a href="https://neos21.hateblo.jp/">El Mylar</a></li>
-        <li><a href="https://neos21.github.io/">Neo's GitHub Pages</a></li>
+        <li><a href="https://neos21.net/">Neo's World</a></li>
         <li><a href="https://github.com/Neos21">GitHub - Neos21</a></li>
+        <li><a href="https://github.com/Neos21/bootstrap3-glyphicons">GitHub - bootstrap3-glyphicons</a></li>
+        <li><a href="https://neos21.github.io/bootstrap3-glyphicons/">GitHub Pages - Bootstrap3 Glyphicons</a></li>
+        <li><a href="https://www.npmjs.com/package/@neos21/bootstrap3-glyphicons">npm - @neos21/bootstrap3-glyphicons</a></li>
       </ul>
     </main>
     <footer>
-      <small>Copyright &copy; 2018-2020 <a href="http://neo.s21.xrea.com/">Neo</a>, All rights reserved.</small>
+      <small>Copyright &copy; 2018-2020 <a href="https://neos21.net/">Neo</a>, All rights reserved.</small>
     </footer>
   </body>
 </html>
